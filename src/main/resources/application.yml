@@ -24,9 +24,9 @@ spring:
     filters: stat,log4j,wall
     useGlobalDataSourceStat: true
 
-##mybatis-plus配置
-#mybatis-plus:
-#
-#  #控制台打印sql
-#  configuration:
-#    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+#mybatis-plus配置
+mybatis-plus:
+
+  #控制台打印sql
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
