@@ -6,7 +6,7 @@ import cn.hutool.core.date.TimeInterval;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.ftc.mybatisplustest.dao.StudentMapper;
 import com.ftc.mybatisplustest.entity.StudentEntity;
-import com.ftc.mybatisplustest.mybatisplus.MybatisPlusUtil;
+import com.ftc.mybatisplustest.config.savebatch.MybatisPlusUtil;
 import com.ftc.mybatisplustest.service.StudentService;
 import lombok.extern.slf4j.Slf4j;
 import org.junit.jupiter.api.BeforeEach;
@@ -18,7 +18,7 @@ import java.util.List;
 
 @Slf4j
 @SpringBootTest
-class StudentServicesTest {
+class SaveBatchTest {
 
     @Autowired
     private StudentService studentService;

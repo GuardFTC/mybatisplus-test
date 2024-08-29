@@ -1,7 +1,7 @@
 package com.ftc.mybatisplustest.dao;
 
 import com.ftc.mybatisplustest.entity.StudentEntity;
-import com.ftc.mybatisplustest.mybatisplus.CustomMapper;
+import com.ftc.mybatisplustest.config.savebatch.CustomMapper;
 import org.apache.ibatis.annotations.Mapper;
 
 /**

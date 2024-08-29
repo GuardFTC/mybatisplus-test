@@ -1,4 +1,4 @@
-package com.ftc.mybatisplustest.mybatisplus;
+package com.ftc.mybatisplustest.config.savebatch;
 
 import cn.hutool.core.collection.CollUtil;
 import cn.hutool.core.date.DateUtil;

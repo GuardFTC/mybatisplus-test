@@ -1,4 +1,4 @@
-package com.ftc.mybatisplustest.mybatisplus;
+package com.ftc.mybatisplustest.config.savebatch;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 
