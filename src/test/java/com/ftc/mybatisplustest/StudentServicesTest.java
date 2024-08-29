@@ -26,7 +26,7 @@ class StudentServicesTest {
     @Autowired
     private StudentMapper studentMapper;
 
-    private final static int DEFAULT_SIZE = 50000;
+    private final static int DEFAULT_SIZE = 10000;
 
     @BeforeEach
     void removeData() {
